@@ -6,30 +6,36 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 0
-    path: Assets/Scenes/textures_and_colors.unity
-    guid: 0f385f0b156f54deebce36982921da89
+    path: 
+    guid: 00000000000000000000000000000000
   - enabled: 0
     path: Assets/Scenes/SampleScene.unity
     guid: 99c9720ab356a0642a771bea13969a05
-  - enabled: 1
-    path: Assets/Scenes/splash.unity
-    guid: e964d06d2b5ec4372a2c06bc8e6e26f2
-  - enabled: 1
-    path: Assets/Scenes/instructions.unity
-    guid: 2d5109e3a54a64c718a0f2b5e3e8beb1
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
   - enabled: 1
     path: Assets/Scenes/maze.unity
     guid: 3f1d8d13677614928bce0b993682aee9
   - enabled: 1
     path: Assets/Scenes/outdoor.unity
     guid: 6c2fd1e3032344178bbcc4b503055cbc
-  - enabled: 1
-    path: Assets/Scenes/gameCompleted.unity
-    guid: 2c1818ecdba6a461695311adfab1c5ad
   - enabled: 0
-    path: Assets/Scenes/scene1.unity
-    guid: 38ad41c9d78c9430cbd3cf6f36af6a05
+    path: Assets/Scenes/Collide1.unity
+    guid: 37f01d854f4e6ac49a8f8ddeaa8f8c9e
   - enabled: 0
-    path: Assets/Scenes/scene2.unity
-    guid: c0e96e9f9991446158338c20b99d1411
+    path: Assets/Scenes/Collide2.unity
+    guid: 00b524b086e901a408c81cc83fc59487
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
   m_configObjects: {}

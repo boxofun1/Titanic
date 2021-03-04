@@ -8,6 +8,7 @@ TagManager:
   - petrol_can
   - plane
   - bgSound
+  - ground
   layers:
   - Default
   - TransparentFX
