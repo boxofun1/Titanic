@@ -13,7 +13,7 @@ public class timer : MonoBehaviour
     {
         GameObject.Find("timerUI").GetComponent<Text>().text = "";
         GameObject.Find("userMessageUI").GetComponent<Text>().text = "";
-        time = 100.0f;
+        time = 0.0f;
     }
 
     // Update is called once per frame

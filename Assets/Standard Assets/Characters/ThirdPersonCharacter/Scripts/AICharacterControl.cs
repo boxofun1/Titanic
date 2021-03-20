@@ -10,7 +10,7 @@ namespace UnityStandardAssets.Characters.ThirdPerson
         public UnityEngine.AI.NavMeshAgent agent { get; private set; }             // the navmesh agent required for the path finding
         public ThirdPersonCharacter character { get; private set; } // the character we are controlling
         public Transform target;                                    // target to aim for
-
+        public int targetRank;                                      // Used to know what target to follow
 
         private void Start()
         {
@@ -20,6 +20,8 @@ namespace UnityStandardAssets.Characters.ThirdPerson
 
 	        agent.updateRotation = false;
 	        agent.updatePosition = true;
+
+            targetRank = 1;
         }
 
 
@@ -32,6 +34,18 @@ namespace UnityStandardAssets.Characters.ThirdPerson
                 character.Move(agent.desiredVelocity, false, false);
             else
                 character.Move(Vector3.zero, false, false);
+
+            if (gameObject.name == "npc_path")
+			{
+                target = GameObject.Find("target" + targetRank).transform;
+                if(Vector3.Distance(transform.position, target.transform.position) < 1.0)
+				{
+                    targetRank++;
+                    if (targetRank > 4) targetRank = 1;
+                    target = GameObject.Find("target" + targetRank).transform;
+                }
+                print("Current Target is target" + targetRank);
+            }
         }
 
 
