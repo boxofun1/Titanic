@@ -17,10 +17,10 @@ EditorBuildSettings:
   - enabled: 0
     path: 
     guid: 00000000000000000000000000000000
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/maze.unity
     guid: 3f1d8d13677614928bce0b993682aee9
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/outdoor.unity
     guid: 6c2fd1e3032344178bbcc4b503055cbc
   - enabled: 0
@@ -35,13 +35,25 @@ EditorBuildSettings:
   - enabled: 0
     path: 
     guid: 00000000000000000000000000000000
+  - enabled: 1
+    path: Assets/Scenes/wordGame.unity
+    guid: 366e3d302cc239d44bc7c53c0b7c6cb3
+  - enabled: 1
+    path: Assets/Scenes/wordGameStart.unity
+    guid: 770e37b01acf4544b97119b081128db7
+  - enabled: 1
+    path: Assets/Scenes/wordGameEnd.unity
+    guid: 5b6dfef422d68be4e8f3e7580627ea5b
+  - enabled: 1
+    path: Assets/Scenes/wordGameWin.unity
+    guid: 9dd1a2ff0b6ab314d87a84e303adeb82
   - enabled: 0
     path: 
     guid: 00000000000000000000000000000000
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/startingScene.unity
     guid: 55a93c48aa2a01349bba1ef6f3a096ba
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/theEnd.unity
     guid: 551567c0e0bf661498c16e20375930b8
   m_configObjects: {}
