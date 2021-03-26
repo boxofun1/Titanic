@@ -9,6 +9,7 @@ TagManager:
   - plane
   - bgSound
   - ground
+  - obstacle
   layers:
   - Default
   - TransparentFX
